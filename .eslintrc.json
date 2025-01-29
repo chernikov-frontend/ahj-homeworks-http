@@ -1,0 +1,20 @@
+{
+  "env": {
+    "browser": true,
+    "es6": true,
+    "jest": true
+  },
+  "extends": "airbnb-base",
+  "parserOptions": {
+    "ecmaVersion": 2018,
+    "sourceType": "module"
+  },
+  "rules": {
+    "class-methods-use-this": "off",
+    "no-unused-vars": "off",
+    "prefer-template": "off",
+    "no-console": "off",
+    "max-len": "off",
+    "no-restricted-globals": "off"
+  }
+}

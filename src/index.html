@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>HelpDesk</title>
+  </head>
+  <body>
+    <div id="root">
+      <button class="add-ticket-button">Добавить тикет</button>
+      <ul class="tickets-list"></ul>
+      <div class="add-ticket-popup popup">
+        <form class="add-ticket-form">
+          <h2 class="add-ticket-form-title title">Добавить тикет</h2>
+          <label class="label" for="name">Краткое описание</label>
+          <textarea name="name" id="name" class="textarea" required></textarea>
+          <label class="label" for="description">Подробное описание</label>
+          <textarea name="description" id="description" class="textarea textarea_big" required></textarea>
+          <div class="add-ticket-popup-buttons">
+            <button class="add-ticket-form-button close-button">Отмена</button>
+            <button class="add-ticket-form-button post-button">Ок</button>
+          </div>
+        </form>
+      </div>
+      <div class="edit-ticket-popup popup">
+        <form class="edit-ticket-form">
+          <h2 class="edit-ticket-form-title title">Изменить тикет</h2>
+          <label class="label" for="name-textarea">Краткое описание</label>
+          <textarea name="name" id="name-textarea" class="textarea name-textarea" required></textarea>
+          <label class="label" for="description-textarea">Подробное описание</label>
+          <textarea name="description" id="description-textarea" class="textarea textarea_big description-textarea" required></textarea>
+          <div class="edit-ticket-popup-buttons">
+            <button class="edit-ticket-form-button close-button">Отмена</button>
+            <button class="edit-ticket-form-button submit-button">Ок</button>
+          </div>
+        </form>
+      </div>
+      <div class="delete-ticket-popup popup">
+        <h2 class="delete-ticket-popup-title title">Удалить тикет</h2>
+        <p class="delete-ticket-popup-text">Вы уверены, что хотите удалить тикет? Это действие необратимо</p>
+        <div class="delete-ticket-popup-buttons">
+          <button class="delete-ticket-popup-button close-button">Отмена</button>
+          <button class="delete-ticket-popup-button submit-button">Ок</button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
