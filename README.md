@@ -1,4 +1,4 @@
-![CI](https://github.com/chernikov-frontend/ahj-homeworks-http/actions/workflows/web.yml/badge.svg)
+![CI](https://github.com/chernikov-frontend/ahj-homeworks-http/actions/workflows/deploy.yml/badge.svg)
 
 
 # Домашнее задание к занятию "7. Работа с HTTP"
